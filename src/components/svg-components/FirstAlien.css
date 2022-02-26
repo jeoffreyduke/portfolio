@@ -1,0 +1,15 @@
+@keyframes mouthanime {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 10px;
+  }
+}
+
+#mouth {
+  animation-name: mouthanime;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background-color: red;
+}

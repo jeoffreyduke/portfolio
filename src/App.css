@@ -1,0 +1,41 @@
+.App {
+  background-color: #111111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #39ff14;
+  background-color: transparent;
+  font-size: 1rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding-top: 1rem;
+  padding-right: 5rem;
+  z-index: 100;
+}
+
+.btn {
+  width: 4rem;
+  font-size: 0.85rem;
+  font-family: "JetBrains Mono", monospace;
+  padding: 0.2rem;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.story {
+  margin-right: 1rem;
+}
+
+.btn:hover {
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: inset 0 -2rem 0 0 #39ff14;
+  color: #111111;
+}

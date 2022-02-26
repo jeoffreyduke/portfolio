@@ -1,0 +1,39 @@
+.FifthSection {
+  height: 102vh;
+  width: 100vw;
+  background-color: #111111;
+}
+
+.story-board {
+  padding: 2rem;
+  height: fit-content;
+  width: inherit;
+}
+
+.story-content {
+  font-size: 1rem;
+  font-family: "JetBrains Mono", monospace;
+  color: black;
+  margin-top: 1rem;
+}
+
+.sectioncon {
+  padding-right: 3.5rem;
+  margin-top: 1rem;
+}
+
+.landd {
+  display: flex;
+}
+
+.launch {
+  position: relative;
+  top: 2rem;
+  left: 5rem;
+}
+
+.decide {
+  position: relative;
+  top: 18rem;
+  left: 35rem;
+}

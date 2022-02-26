@@ -1,0 +1,40 @@
+.ThirdSection {
+  height: 101.5vh;
+  width: 100vw;
+  background-color: #111111;
+}
+
+.story-board {
+  padding: 2rem;
+  height: fit-content;
+  width: inherit;
+  background-color: #fff;
+}
+
+.story-content {
+  font-size: 1rem;
+  font-family: "JetBrains Mono", monospace;
+  color: black;
+  margin-top: 1rem;
+}
+
+.sectioncon {
+  padding-right: 3.5rem;
+  margin-top: 1rem;
+}
+
+.sandt {
+  display: flex;
+}
+
+.skills {
+  position: relative;
+  left: 4rem;
+  bottom: 3rem;
+}
+
+.team {
+  position: relative;
+  top: 20rem;
+  left: 30rem;
+}

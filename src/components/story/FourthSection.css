@@ -1,0 +1,38 @@
+.FourthSection {
+  height: 101vh;
+  width: 100vw;
+  background-color: #111111;
+}
+
+.story-board {
+  height: fit-content;
+  width: inherit;
+}
+
+.story-content {
+  font-size: 1rem;
+  font-family: "JetBrains Mono", monospace;
+  color: black;
+  margin-top: 1rem;
+}
+
+.sectioncon {
+  padding-right: 3.5rem;
+  margin-top: 1rem;
+}
+
+.tandm {
+  display: flex;
+}
+
+.three {
+  position: relative;
+  top: 17rem;
+  left: 3rem;
+}
+
+.mind {
+  position: relative;
+  top: 7.5rem;
+  left: 30rem;
+}

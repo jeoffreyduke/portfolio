@@ -1,0 +1,73 @@
+.SecondSection {
+  height: 100vh;
+  width: 100vw;
+  background-color: #111111;
+}
+
+.story-board {
+  padding: 2rem;
+  height: fit-content;
+  width: inherit;
+}
+
+.story-title {
+  font-size: 1.2rem;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.caret {
+  display: inline-block;
+  opacity: 0;
+}
+
+.content {
+  font-size: large;
+}
+
+.abduction {
+  position: relative;
+  left: 85rem;
+  bottom: 4rem;
+}
+
+.thinking {
+  position: relative;
+  left: 3rem;
+  top: 10rem;
+}
+
+.story-content {
+  font-size: 1rem;
+  font-family: "JetBrains Mono", monospace;
+  color: black;
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
+
+.SecondSection1 {
+  height: 102vh;
+  width: 100vw;
+  background-color: #111111;
+}
+
+.sectioncon {
+  margin-top: 1rem;
+  padding-right: 3.5rem;
+}
+
+.second {
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.true-love {
+  position: relative;
+  left: 1rem;
+  bottom: 22rem;
+}
+
+.coding {
+  position: relative;
+  left: 55rem;
+  top: 1rem;
+}

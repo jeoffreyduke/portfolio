@@ -1,0 +1,95 @@
+.FirstSection {
+  height: 100vh;
+  width: 100vw;
+}
+
+.welcome {
+  color: #39ff14;
+  font-size: 4.5rem;
+  font-weight: 900;
+  font-family: "Ultra", serif;
+  position: relative;
+  left: 6rem;
+  top: 13rem;
+}
+
+.welcome-small {
+  font-size: 0.9rem;
+  font-family: "BioRhyme", serif;
+  margin-top: 0.5rem;
+  color: #fff;
+}
+
+.yellow-big {
+  color: #39ff14;
+  display: inline-block;
+}
+
+.white-big {
+  color: #fff;
+  transition: 0.2s;
+}
+
+.white-big:hover {
+  animation: neon 0.08s ease-in-out infinite alternate;
+}
+
+.welcome-btn {
+  width: 20rem;
+  height: 3rem;
+  font-family: "JetBrains Mono", monospace;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #39ff14;
+  transition: 0.5s;
+}
+
+.welcome-btn:hover,
+.welcome-btn:focus {
+  box-shadow: inset 20rem 0 0 0 #39ff14;
+  color: #111111;
+  border-color: #39ff14;
+}
+
+.move-button-con {
+  position: fixed;
+  right: 7.5rem;
+  bottom: 2.5rem;
+}
+
+.guy-portfolio {
+  position: relative;
+  left: 55rem;
+  bottom: 7rem;
+}
+
+.first-alien {
+  position: relative;
+  left: 1rem;
+  bottom: 55rem;
+}
+
+.second-alien {
+  position: relative;
+  left: 1rem;
+  bottom: 25rem;
+}
+
+.moving {
+  color: #fff;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 3px rgba(202, 228, 225, 0.92),
+      0 0 20px rgba(202, 228, 225, 0.34), 0 0 2px rgba(57, 255, 20, 0.52),
+      0 0 11px rgba(57, 255, 20, 0.92), 0 0 24px rgba(57, 255, 20, 0.78),
+      0 0 44px rgba(57, 255, 20, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 20px rgba(202, 228, 225, 0.42), 0 0 2px rgba(57, 255, 20, 0.58),
+      0 0 12px rgba(57, 255, 20, 0.84), 0 0 28px rgba(57, 255, 20, 0.88),
+      0 0 50px rgba(57, 255, 20, 1);
+  }
+}
