@@ -1,0 +1,34 @@
+.progress-con {
+  border: 1px solid #39ff14;
+  position: relative;
+  top: 20rem;
+  left: 26rem;
+  width: 45rem;
+  height: 12rem;
+  color: #39ff14;
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+.progress-box {
+  border: 1px solid #39ff14;
+  width: 40rem;
+  height: 8rem;
+  position: relative;
+  top: 1rem;
+  left: 1.5rem;
+  padding: 1rem;
+}
+
+.progress {
+  width: 38rem;
+  height: 4rem;
+  padding: 1rem;
+}
+
+.bar {
+  background-color: #39ff14;
+  height: inherit;
+  width: 10%;
+  opacity: 0;
+}

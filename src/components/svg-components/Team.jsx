@@ -1,6 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function Team() {
   const rightArm = useRef();
@@ -19,10 +18,6 @@ function Team() {
   const pupil5 = useRef();
   const pupil2 = useRef();
   const alien4 = useRef();
-  const html = useRef();
-  const head = useRef();
-  const push = useRef();
-  const gandr = useRef();
 
   useEffect(() => {
     gsap.to(rightArm.current, {
@@ -146,7 +141,6 @@ function Team() {
       y: "10",
       repeat: "-1",
       duration: "1.5",
-      yoyoEase: true,
       yoyo: true,
       yoyoEase: true,
       ease: "power1.ease",

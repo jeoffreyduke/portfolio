@@ -1,15 +1,12 @@
-import React, { useRef, useEffect, useState } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React, { useRef } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
-import TypeAnimation from "react-type-animation";
 import "./SixthSection.css";
-import Abduction from "../svg-components/Abduction";
 import MicDrop from "../svg-components/MicDrop";
 import Donut from "../svg-components/Donut";
 
 function SixthSection() {
   const sectionSix = useRef();
+  const mand = useRef();
 
   return (
     <div className="SixthSection">
@@ -28,7 +25,7 @@ function SixthSection() {
           />
         </div>
       </div>
-      <div className="mandd">
+      <div ref={mand} className="mandd">
         <div className="mic-drop">
           <MicDrop />
         </div>

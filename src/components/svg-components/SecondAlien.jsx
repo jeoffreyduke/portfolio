@@ -9,8 +9,6 @@ function SecondAlien() {
   const mouth = useRef();
   const rightArm = useRef();
   const leftArm = useRef();
-  const leftFoot = useRef();
-  const rightFoot = useRef();
   const pupil = useRef();
 
   useEffect(() => {

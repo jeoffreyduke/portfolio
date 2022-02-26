@@ -1,12 +1,10 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function Abduction() {
   const ship = useRef();
   const line = useRef();
   const alien1 = useRef();
-  const alien2 = useRef();
   const mouth1 = useRef();
   const pupil1 = useRef();
   const mouth2 = useRef();

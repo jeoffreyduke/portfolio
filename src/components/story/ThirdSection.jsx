@@ -1,12 +1,9 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import TypeWriterEffect from "react-typewriter-effect";
-import TypeAnimation from "react-type-animation";
 import "./ThirdSection.css";
-import Abduction from "../svg-components/Abduction";
 import Skills from "../svg-components/Skills";
-import FirstAlien from "../svg-components/FirstAlien";
 import Team from "../svg-components/Team";
 
 function ThirdSection() {

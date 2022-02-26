@@ -1,8 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React, { useRef } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
-import TypeAnimation from "react-type-animation";
 import "./FourthSection.css";
 import Mind from "../svg-components/Mind";
 import Three from "../svg-components/Three";

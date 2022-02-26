@@ -1,8 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React, { useRef } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
-import TypeAnimation from "react-type-animation";
 import "./SecondSection.css";
 import Abduction from "../svg-components/Abduction";
 import TrueLove from "../svg-components/TrueLove";
