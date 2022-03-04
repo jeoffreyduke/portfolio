@@ -50,12 +50,14 @@ function SecondSection() {
             </div>
           </div>
         </div>
-        <div className="thinking">
-          <Thinking />
-        </div>
-        <div className="abduction">
-          <Abduction />
-        </div>
+        <canvas id="canvas">
+          <div className="thinking">
+            <Thinking />
+          </div>
+          <div className="abduction">
+            <Abduction />
+          </div>
+        </canvas>
       </div>
       <div className="SecondSection1">
         <div className="story-content sc1">
