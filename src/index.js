@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Suspense fallback={<Loader />}>
-        <App />
+        <Loader />
       </Suspense>
     </BrowserRouter>
   </React.StrictMode>,

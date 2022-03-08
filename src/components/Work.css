@@ -31,6 +31,10 @@
   z-index: -1;
 }
 
+.pop-link {
+  text-decoration: none;
+}
+
 .name {
   position: relative;
   top: 3rem;
@@ -55,4 +59,110 @@ hr {
   right: 7rem;
   color: #fff;
   width: 85rem;
+}
+
+.contact {
+  color: #39ff14;
+  position: relative;
+  top: 3rem;
+  left: 25rem;
+  display: flex;
+  justify-content: space-around;
+  width: 50rem;
+  margin-left: 3rem;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.mail {
+  position: relative;
+  bottom: 4rem;
+}
+
+.mail > a {
+  text-decoration: none;
+  transition: margin 0.25s;
+  color: #39ff14;
+}
+
+.github {
+  position: relative;
+  bottom: 4rem;
+}
+
+.github > a {
+  text-decoration: none;
+  transition: margin 0.25s;
+  color: #39ff14;
+}
+
+.linkedin {
+  position: relative;
+  bottom: 4rem;
+}
+
+.linkedin > a {
+  text-decoration: none;
+  transition: margin 0.25s;
+  color: #39ff14;
+}
+
+.twitter {
+  position: relative;
+  bottom: 4rem;
+}
+
+.twitter > a {
+  text-decoration: none;
+  transition: margin 0.25s;
+  color: #39ff14;
+}
+
+.ct-line {
+  transform: translate(-50%, 7px) translateZ(0);
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-width: 2px;
+  stroke-dasharray: var(--offset, 69px) 278px;
+  stroke-dashoffset: 361px;
+  transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.35s;
+}
+
+.m-line {
+  width: 6.8rem;
+  height: 5rem;
+  position: relative;
+  top: 1.5rem;
+  right: 1.2rem;
+}
+
+.git-line {
+  width: 6.8rem;
+  height: 5rem;
+  position: relative;
+  top: 1.5rem;
+  right: 1.7rem;
+}
+
+.lin-line {
+  width: 6.8rem;
+  height: 5rem;
+  position: relative;
+  top: 1.5rem;
+  right: 2.3rem;
+}
+
+.tw-line {
+  width: 6.8rem;
+  height: 5rem;
+  position: relative;
+  top: 1.5rem;
+  right: 2rem;
+}
+
+.ct-line:hover {
+  --spacing: 4px;
+  --stroke: var(--line-active);
+  --stroke-delay: 0.1s;
+  --offset: 180px;
 }

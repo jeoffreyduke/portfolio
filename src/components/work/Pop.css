@@ -1,0 +1,70 @@
+.Pop {
+  height: 100vh;
+  width: 100vw;
+}
+
+.pop-box {
+  height: 75vh;
+  width: 75vw;
+  position: relative;
+  top: 6.5rem;
+  left: 9rem;
+  cursor: url("../../assets/cursor.svg"), auto;
+}
+
+.pop-box:hover .big-txt {
+  letter-spacing: 0.2rem;
+}
+
+.pop-img {
+  position: fixed;
+  height: 75vh;
+  width: 75vw;
+}
+
+.pop-content {
+  width: fit-content;
+  height: fit-content;
+  color: #fff;
+  position: relative;
+  top: 10.5rem;
+  left: 10rem;
+  z-index: 99;
+  cursor: url("../../assets/cursor1.svg"), auto;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-family: "Ultra", serif;
+  margin-bottom: 2.5rem;
+}
+
+.small-txt {
+  font-size: 0.9rem;
+  margin-bottom: 2.5rem;
+}
+
+.big-txt {
+  font-size: 2rem;
+  font-family: "JetBrains Mono", monospace;
+  transition: all 0.8s ease-in-out;
+}
+
+.cursor {
+  height: fit-content;
+  width: fit-content;
+  position: fixed;
+  z-index: 1000;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  pointer-events: none;
+}
+
+.exit {
+  display: inline;
+  position: relative;
+  left: 77rem;
+  bottom: 1.5rem;
+  z-index: 100;
+  cursor: pointer;
+}
