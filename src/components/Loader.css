@@ -1,0 +1,18 @@
+.Loader {
+  position: relative;
+  top: 18rem;
+  left: 30.2rem;
+  color: #fff;
+}
+
+.loading {
+  position: relative;
+  left: 15rem;
+  font-size: 7rem;
+  font-family: "Ultra", serif;
+}
+
+.point {
+  display: inline-block;
+  color: #39ff14;
+}

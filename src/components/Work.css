@@ -3,6 +3,8 @@
 }
 
 .projects {
+  position: relative;
+  bottom: 11rem;
   margin-top: 11rem;
   margin-left: 14rem;
 }
@@ -21,6 +23,7 @@
 
 .green {
   color: #39ff14;
+  display: inline-block;
 }
 
 .box {
@@ -165,4 +168,9 @@ hr {
   --stroke: var(--line-active);
   --stroke-delay: 0.1s;
   --offset: 180px;
+}
+
+.rocket-tr {
+  position: relative;
+  top: 2rem;
 }

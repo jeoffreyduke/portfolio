@@ -8,8 +8,8 @@ import Loader from "./components/Loader";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Suspense fallback={<Loader />}>
-        <Loader />
+      <Suspense>
+        <App />
       </Suspense>
     </BrowserRouter>
   </React.StrictMode>,

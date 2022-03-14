@@ -21,16 +21,15 @@ function FifthSection() {
             text="Unfortunately we have no idea where he is, or will be next, 
             but he left something behind -- a rocket; 
             where anyone with an unrealised world in their head can make contact with him, 
-            click the Red button to go back, or if you will; 
-            click the Green button to begin your next quest to him 
-            and watch him pull the world out of your mind just to place it in your hands."
+            to begin your next quest to him; enter the next section(Work) 
+            and allow him to pull the world out of your mind just to place it in your hands."
             typeSpeed={100}
             scrollArea={sectionFive.current}
           />
         </div>
       </div>
       <div className="landd">
-        <div className="launch">
+        <div id="launch" className="launch">
           <Launch />
         </div>
         <div className="decide">
