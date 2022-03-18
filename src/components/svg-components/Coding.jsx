@@ -42,8 +42,9 @@ function Coding() {
         viewBox="0 0 879 483"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="codingSvg"
       >
-        <g id="coding" clip-path="url(#clip0_0_1)">
+        <g id="coding" clipPath="url(#clip0_0_1)">
           <path
             id="Vector"
             d="M134.032 412.703C114.521 427.248 108.991 452.838 108.991 452.838C108.991 452.838 135.095 454.847 154.606 440.303C174.117 425.759 179.646 400.168 179.646 400.168C179.646 400.168 153.542 398.159 134.032 412.703Z"

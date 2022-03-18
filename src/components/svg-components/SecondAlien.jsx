@@ -70,6 +70,7 @@ function SecondAlien() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         ref={alien}
+        className="secondAlien"
       >
         <g id="second-alien">
           <path

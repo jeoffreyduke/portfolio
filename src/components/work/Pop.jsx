@@ -14,12 +14,13 @@ function Pop({ logo, small, big, image, link }) {
       <div className="Pop">
         <div className="pop-box">
           <div className="exit">
-            <Link to="/work" end>
+            <Link to="/work" end="true">
               <svg
                 width="50"
                 height="50"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
+                className="exitSvg"
               >
                 <path
                   fill="white"

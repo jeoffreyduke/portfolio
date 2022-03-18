@@ -58,6 +58,7 @@
 .second {
   background-color: #fff;
   padding: 3rem;
+  width: 90vw;
 }
 
 .true-love {
@@ -70,4 +71,157 @@
   position: relative;
   left: 55rem;
   top: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .story-content {
+    padding-right: 0.14rem;
+  }
+
+  .second {
+    padding: 2rem;
+  }
+
+  .thinking {
+    left: 3rem;
+    top: 17rem;
+  }
+
+  .thinkingSvg {
+    height: 344px;
+    width: 406px;
+  }
+
+  .abduction {
+    left: 38rem;
+    bottom: 0;
+    top: 1rem;
+  }
+
+  .abductionSvg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .true-love {
+    bottom: 0rem;
+    top: 9rem;
+    left: 4rem;
+  }
+
+  .trueLove {
+    width: 150px;
+    height: 150px;
+  }
+
+  .coding {
+    left: 27rem;
+    top: 20rem;
+  }
+
+  .codingSvg {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .story-content {
+    padding-right: 0.14rem;
+  }
+
+  .second {
+    padding: 2rem;
+  }
+
+  .thinking {
+    left: 2rem;
+    top: 10rem;
+  }
+
+  .thinkingSvg {
+    height: 180px;
+    width: 210px;
+  }
+
+  .abduction {
+    left: 17.5rem;
+    bottom: 1rem;
+  }
+
+  .abductionSvg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .true-love {
+    bottom: 0;
+    top: 9rem;
+  }
+
+  .trueLove {
+    width: 100px;
+    height: 100px;
+  }
+
+  .coding {
+    left: 13rem;
+    top: 16rem;
+  }
+
+  .codingSvg {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .story-content {
+    padding-right: 0.14rem;
+  }
+
+  .second {
+    padding: 2rem;
+  }
+
+  .thinking {
+    left: 1rem;
+    top: 7.5rem;
+  }
+
+  .thinkingSvg {
+    height: 220px;
+    width: 220px;
+  }
+
+  .abduction {
+    left: 16rem;
+    top: -2.7rem;
+  }
+
+  .abductionSvg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .true-love {
+    bottom: 0rem;
+    top: 7.5rem;
+    left: 1.5rem;
+  }
+
+  .trueLove {
+    width: 100px;
+    height: 100px;
+  }
+
+  .coding {
+    left: 13rem;
+    top: 14.5rem;
+  }
+
+  .codingSvg {
+    width: 150px;
+    height: 150px;
+  }
 }

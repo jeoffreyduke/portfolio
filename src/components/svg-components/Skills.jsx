@@ -86,8 +86,9 @@ function Skills() {
         viewBox="0 0 1206 580"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="skillsSvg"
       >
-        <g id="Skills" clip-path="url(#clip0_1_2)">
+        <g id="Skills" clipPath="url(#clip0_1_2)">
           <path
             id="Vector"
             d="M526.389 6.77105L429.294 325.454L1037.97 485.21L1135.06 166.527L526.389 6.77105Z"
@@ -283,48 +284,48 @@ function Skills() {
                 opacity="0.5"
                 d="M414.005 333.572C414.005 333.572 409.938 422.721 392.833 475.288"
                 stroke="#535461"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
               />
               <path
                 id="Vector_31"
                 opacity="0.5"
                 d="M395.09 342.694C395.09 342.694 413.37 356.949 409.902 384.076"
                 stroke="#535461"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
               />
               <path
                 id="Vector_32"
                 opacity="0.5"
                 d="M379.752 383.26C379.752 383.26 409.758 388.43 407.529 403.803"
                 stroke="#535461"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
               />
               <path
                 id="Vector_33"
                 opacity="0.5"
                 d="M432.415 353.237C432.415 353.237 420.272 362.341 409.455 388.127"
                 stroke="#535461"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
               />
               <path
                 id="Vector_34"
                 opacity="0.5"
                 d="M420.553 431.17C420.553 431.17 412.267 436.729 405.618 417.267"
                 stroke="#535461"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
               />
               <path
                 id="Vector_35"
                 opacity="0.5"
                 d="M384.8 442.541C384.8 442.541 401.696 440.651 403.253 431.59"
                 stroke="#535461"
-                stroke-width="2"
-                stroke-miterlimit="10"
+                strokeWidth="2"
+                strokeMiterlimit="10"
               />
             </g>
             <path
@@ -336,43 +337,43 @@ function Skills() {
               id="Vector_37"
               d="M468.298 273.519C468.298 273.519 472.235 404.39 444.097 480.069"
               stroke="#535461"
-              stroke-width="2"
-              stroke-miterlimit="10"
+              strokeWidth="2"
+              strokeMiterlimit="10"
             />
             <path
               id="Vector_38"
               d="M430.403 285.056C430.403 285.056 470.209 307.909 466.798 347.536"
               stroke="#535461"
-              stroke-width="2"
-              stroke-miterlimit="10"
+              strokeWidth="2"
+              strokeMiterlimit="10"
             />
             <path
               id="Vector_39"
               d="M404.277 343.219C404.277 343.219 467.101 353.879 464.62 376.287"
               stroke="#535461"
-              stroke-width="2"
-              stroke-miterlimit="10"
+              strokeWidth="2"
+              strokeMiterlimit="10"
             />
             <path
               id="Vector_40"
               d="M509.12 304.351C509.12 304.351 485.244 316.525 466.437 353.398"
               stroke="#535461"
-              stroke-width="2"
-              stroke-miterlimit="10"
+              strokeWidth="2"
+              strokeMiterlimit="10"
             />
             <path
               id="Vector_41"
               d="M495.339 417.916C495.339 417.916 478.97 425.328 462.507 395.922"
               stroke="#535461"
-              stroke-width="2"
-              stroke-miterlimit="10"
+              strokeWidth="2"
+              strokeMiterlimit="10"
             />
             <path
               id="Vector_42"
               d="M422.918 431.016C422.918 431.016 457.625 429.948 459.601 416.761"
               stroke="#535461"
-              stroke-width="2"
-              stroke-miterlimit="10"
+              strokeWidth="2"
+              strokeMiterlimit="10"
             />
             <path
               id="Vector_43"
@@ -616,8 +617,8 @@ function Skills() {
               id="Vector_85"
               d="M263.295 165.568C262.646 164.608 263.381 163.432 264.22 162.575C265.059 161.718 266.082 160.833 266.06 159.737C266.03 158.169 263.963 157.244 262.313 156.413C261.089 155.795 259.96 155.064 258.949 154.233C258.526 153.913 258.177 153.535 257.916 153.118C257.574 152.505 257.585 151.808 257.606 151.135C257.678 148.898 257.815 146.663 258.017 144.431"
               stroke="#3F3D56"
-              stroke-width="4"
-              stroke-miterlimit="10"
+              strokeWidth="4"
+              strokeMiterlimit="10"
             />
             <path
               id="Vector_86"
@@ -678,8 +679,8 @@ function Skills() {
               id="Vector_96"
               d="M473.011 167.136C472.363 166.176 473.098 165 473.937 164.143C474.775 163.286 475.798 162.401 475.776 161.305C475.746 159.737 473.679 158.812 472.03 157.981C470.806 157.363 469.676 156.632 468.666 155.801C468.243 155.481 467.893 155.103 467.632 154.686C467.29 154.073 467.301 153.376 467.323 152.703C467.394 150.466 467.53 148.232 467.734 145.999"
               stroke="#3F3D56"
-              stroke-width="4"
-              stroke-miterlimit="10"
+              strokeWidth="4"
+              strokeMiterlimit="10"
             />
             <path
               id="Vector_97"
@@ -885,8 +886,8 @@ function Skills() {
               id="Vector_134"
               d="M423.659 163.241C424.683 161.711 423.52 159.836 422.184 158.472C420.848 157.108 419.216 155.684 419.25 153.942C419.3 151.442 422.591 149.968 425.222 148.642C427.172 147.659 428.971 146.494 430.581 145.17C431.23 144.638 431.85 144.07 432.229 143.391C432.774 142.415 432.759 141.3 432.724 140.234C432.61 136.667 432.394 133.105 432.075 129.547"
               stroke="#3F3D56"
-              stroke-width="4"
-              stroke-miterlimit="10"
+              strokeWidth="4"
+              strokeMiterlimit="10"
             />
             <path
               id="Vector_135"
@@ -986,9 +987,9 @@ function Skills() {
             width="221.845"
             height="56.5171"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"

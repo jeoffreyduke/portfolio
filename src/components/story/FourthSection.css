@@ -36,3 +36,75 @@
   top: 7.5rem;
   left: 30rem;
 }
+
+@media screen and (max-width: 900px) {
+  .three {
+    position: relative;
+    top: 28.5rem;
+    left: 3.5rem;
+  }
+
+  .threeSvg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .mind {
+    position: relative;
+    top: 16rem;
+    left: 12rem;
+  }
+
+  .mindSvg {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .three {
+    position: relative;
+    top: 17rem;
+    left: 2rem;
+  }
+
+  .threeSvg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mind {
+    position: relative;
+    top: 12rem;
+    left: 5rem;
+  }
+
+  .mindSvg {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .three {
+    position: relative;
+    top: 15rem;
+    left: 1.5rem;
+  }
+
+  .threeSvg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mind {
+    position: relative;
+    top: 10.5rem;
+    left: 4rem;
+  }
+
+  .mindSvg {
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -13,7 +13,7 @@ header {
   top: 0;
   padding-top: 1rem;
   padding-right: 5rem;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .link {
@@ -32,6 +32,7 @@ header {
 
 .story {
   margin-right: 1rem;
+  position: relative;
 }
 
 .link:hover {
@@ -49,4 +50,61 @@ header {
   transition: 1s;
   color: #fff;
   text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    font-size: 0.9rem;
+    left: 40rem;
+    top: 0;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    z-index: 1000;
+  }
+
+  .story {
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 0.9rem;
+    left: 10rem;
+    top: 0;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    z-index: 1000;
+  }
+
+  .story {
+    margin-right: 0.5rem;
+    left: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    font-size: 0.9rem;
+    left: 10rem;
+    top: 0;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    z-index: 1000;
+  }
+
+  .story {
+    margin-right: 0rem;
+    left: 2rem;
+  }
+
+  .active {
+    position: relative;
+    right: 25rem;
+  }
+
+  .link {
+    position: relative;
+    right: 25rem;
+  }
 }

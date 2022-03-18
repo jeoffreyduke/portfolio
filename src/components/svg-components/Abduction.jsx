@@ -79,8 +79,9 @@ function Abduction() {
         viewBox="0 0 673 739"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="abductionSvg"
       >
-        <g id="undraw_taken_re_yn20 1" clip-path="url(#clip0_0_1)">
+        <g id="undraw_taken_re_yn20 1" clipPath="url(#clip0_0_1)">
           <g id="ship" ref={ship}>
             <path
               id="Vector"

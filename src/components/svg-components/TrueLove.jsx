@@ -92,8 +92,9 @@ function TrueLove() {
         viewBox="0 0 888 476"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="trueLove"
       >
-        <g id="undraw_true_love_cy8x 1" clip-path="url(#clip0_0_1)">
+        <g id="undraw_true_love_cy8x 1" clipPath="url(#clip0_0_1)">
           <path
             id="Vector"
             d="M252.096 8.12274L249.796 6.9689L243.566 19.3876L245.865 20.5414L252.096 8.12274Z"

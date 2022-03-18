@@ -55,12 +55,13 @@
   position: fixed;
   right: 7.5rem;
   bottom: 2.5rem;
+  z-index: 1000;
 }
 
 .guy-portfolio {
   position: relative;
   left: 55rem;
-  bottom: 7rem;
+  bottom: 12rem;
 }
 
 .first-alien {
@@ -91,5 +92,150 @@
       0 0 20px rgba(202, 228, 225, 0.42), 0 0 2px rgba(57, 255, 20, 0.58),
       0 0 12px rgba(57, 255, 20, 0.84), 0 0 28px rgba(57, 255, 20, 0.88),
       0 0 50px rgba(57, 255, 20, 1);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .welcome {
+    color: #39ff14;
+    font-size: 2rem;
+    left: 4rem;
+    top: 28rem;
+  }
+
+  .welcome-small {
+    font-size: 0.9rem;
+    font-family: "BioRhyme", serif;
+    margin-top: 0.5rem;
+    color: #fff;
+  }
+
+  .welcome-btn {
+    height: 3rem;
+    font-size: 0.8rem;
+  }
+
+  .first-alien {
+    left: 1rem;
+    bottom: 10rem;
+  }
+
+  .firstAlien {
+    width: 60px;
+    height: 60px;
+  }
+
+  .second-alien {
+    top: 10rem;
+  }
+
+  .secondAlien {
+    width: 60px;
+    height: 60px;
+  }
+
+  .guy-portfolio {
+    left: 28rem;
+    top: 13.5rem;
+    bottom: 0;
+  }
+
+  .guy {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .welcome {
+    font-size: 1.1rem;
+    left: 2rem;
+    top: 23rem;
+  }
+
+  .welcome-small {
+    font-size: 0.42rem;
+  }
+
+  .welcome-btn {
+    width: 9rem;
+    height: 1.5rem;
+    font-size: 0.45rem;
+  }
+
+  .first-alien {
+    left: 1rem;
+    top: 0.1rem;
+  }
+
+  .firstAlien {
+    width: 50px;
+    height: 50px;
+  }
+
+  .second-alien {
+    top: 15rem;
+  }
+
+  .secondAlien {
+    width: 50px;
+    height: 50px;
+  }
+
+  .guy-portfolio {
+    left: 12.5rem;
+    top: 15.5rem;
+  }
+
+  .guy {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .welcome {
+    font-size: 1.1rem;
+    left: 1rem;
+    top: 23rem;
+  }
+
+  .welcome-small {
+    font-size: 0.42rem;
+  }
+
+  .welcome-btn {
+    width: 9rem;
+    height: 1.5rem;
+    font-size: 0.45rem;
+  }
+
+  .first-alien {
+    left: 1rem;
+    top: 0.1rem;
+  }
+
+  .firstAlien {
+    width: 50px;
+    height: 50px;
+  }
+
+  .second-alien {
+    top: 15rem;
+  }
+
+  .secondAlien {
+    width: 50px;
+    height: 50px;
+  }
+
+  .guy-portfolio {
+    left: 12.2rem;
+    top: 15.5rem;
+  }
+
+  .guy {
+    width: 180px;
+    height: 180px;
   }
 }

@@ -38,3 +38,81 @@
   top: 20rem;
   left: 30rem;
 }
+
+@media screen and (max-width: 900px) {
+  .sandt {
+    position: relative;
+    top: 18rem;
+  }
+
+  .skills {
+    left: 2.5rem;
+  }
+
+  .skillsSvg {
+    width: 500px;
+    height: 500px;
+  }
+
+  .team {
+    top: 10rem;
+    left: 6.5rem;
+  }
+
+  .teamSvg {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sandt {
+    position: relative;
+    top: 17rem;
+  }
+
+  .skills {
+    left: 2rem;
+  }
+
+  .skillsSvg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .team {
+    top: 3.5rem;
+    left: 3rem;
+  }
+
+  .teamSvg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sandt {
+    position: relative;
+    top: 15.5rem;
+  }
+
+  .skills {
+    left: 1rem;
+  }
+
+  .skillsSvg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .team {
+    top: 3rem;
+    left: 2rem;
+  }
+
+  .teamSvg {
+    width: 80px;
+    height: 80px;
+  }
+}

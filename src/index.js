@@ -8,7 +8,7 @@ import Loader from "./components/Loader";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Suspense>
+      <Suspense fallback={<Loader />}>
         <App />
       </Suspense>
     </BrowserRouter>

@@ -40,21 +40,22 @@ function Three() {
         viewBox="0 0 1014 552"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="threeSvg"
       >
         <g id="Three">
           <path
             id="Vector"
             d="M507 26V212"
             stroke="#3F3D56"
-            stroke-width="2"
-            stroke-miterlimit="10"
+            strokeWidth="2"
+            strokeMiterlimit="10"
           />
           <path
             id="Vector_2"
             d="M135 212V26H879V212"
             stroke="#3F3D56"
-            stroke-width="2"
-            stroke-miterlimit="10"
+            strokeWidth="2"
+            strokeMiterlimit="10"
           />
           <path
             id="Vector_3"

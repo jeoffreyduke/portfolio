@@ -15,109 +15,99 @@ import Loader from "./components/Loader";
 
 function App() {
   const location = useLocation();
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, [5000]);
-  }, []);
 
   return (
     <AnimatePresence exitBeforeEnter>
-      {loading ? (
-        <Loader />
-      ) : (
-        <div className="App">
-          <header>
-            <NavLink
-              className={({ isActive }) =>
-                isActive ? "active story" : "link story"
-              }
-              to="/"
-              end
-            >
-              <span>story</span>
-            </NavLink>
+      <div className="App">
+        <header>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active story" : "link story"
+            }
+            to="/"
+            end="true"
+          >
+            <div>story</div>
+          </NavLink>
 
-            <NavLink
-              className={({ isActive }) => (isActive ? "active" : "link")}
-              to="/work"
-            >
-              <span>work</span>
-            </NavLink>
-          </header>
-          <Routes location={location} key={location.pathname}>
-            <Route exact path="/" element={<Story />} />
-            <Route exact path="/work" element={<Work />} />
-            <Route
-              exact
-              path="/sockflix"
-              element={
-                <Pop
-                  logo={"Sockflix"}
-                  small={"Media App"}
-                  big={"A simple Netflix clone."}
-                  image={sockflix}
-                  link={"https://sock-flix.web.app/"}
-                />
-              }
-            />
-            <Route
-              exact
-              path="/flipflop"
-              element={
-                <Pop
-                  logo={"Flip-flop"}
-                  small={"Web Game"}
-                  big={"A memory-match game."}
-                  image={flipflop}
-                  link={"https://flip-flop-duke.netlify.app/"}
-                />
-              }
-            />
-            <Route
-              exact
-              path="/sockify"
-              element={
-                <Pop
-                  logo={"Sockify"}
-                  small={"Media App"}
-                  big={"A simple Spotify clone."}
-                  image={sockify}
-                  link={"https://sockifymusic.web.app/"}
-                />
-              }
-            />
-            <Route
-              exact
-              path="/inkfinity"
-              element={
-                <Pop
-                  logo={"Inkfinity"}
-                  small={"E-commerce"}
-                  big={"An online Bookstore."}
-                  image={inkfinity}
-                  link={"https://inkfinity.org/"}
-                />
-              }
-            />
-            <Route
-              exact
-              path="/poethical"
-              element={
-                <Pop
-                  logo={"Poethical"}
-                  small={"Blog Site"}
-                  big={"A poetry blog."}
-                  image={poethical}
-                  link={"https://poethical.com/"}
-                />
-              }
-            />
-          </Routes>
-        </div>
-      )}
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "link")}
+            to="/work"
+            end="true"
+          >
+            <div>work</div>
+          </NavLink>
+        </header>
+        <Routes location={location} key={location.pathname}>
+          <Route exact path="/" element={<Story />} />
+          <Route exact path="/work" element={<Work />} />
+          <Route
+            exact
+            path="/sockflix"
+            element={
+              <Pop
+                logo={"Sockflix"}
+                small={"Media App"}
+                big={"A simple Netflix clone."}
+                image={sockflix}
+                link={"https://sock-flix.web.app/"}
+              />
+            }
+          />
+          <Route
+            exact
+            path="/flipflop"
+            element={
+              <Pop
+                logo={"Flip-flop"}
+                small={"Web Game"}
+                big={"A memory-match game."}
+                image={flipflop}
+                link={"https://flip-flop-duke.netlify.app/"}
+              />
+            }
+          />
+          <Route
+            exact
+            path="/sockify"
+            element={
+              <Pop
+                logo={"Sockify"}
+                small={"Media App"}
+                big={"A simple Spotify clone."}
+                image={sockify}
+                link={"https://sockifymusic.web.app/"}
+              />
+            }
+          />
+          <Route
+            exact
+            path="/inkfinity"
+            element={
+              <Pop
+                logo={"Inkfinity"}
+                small={"E-commerce"}
+                big={"An online Bookstore."}
+                image={inkfinity}
+                link={"https://inkfinity.org/"}
+              />
+            }
+          />
+          <Route
+            exact
+            path="/poethical"
+            element={
+              <Pop
+                logo={"Poethical"}
+                small={"Blog Site"}
+                big={"A poetry blog."}
+                image={poethical}
+                link={"https://poethical.com/"}
+              />
+            }
+          />
+        </Routes>
+      </div>
     </AnimatePresence>
   );
 }

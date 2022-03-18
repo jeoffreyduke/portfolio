@@ -37,3 +37,69 @@
   top: 18rem;
   left: 35rem;
 }
+
+@media screen and (max-width: 900px) {
+  .launch {
+    top: 15rem;
+    left: 3rem;
+  }
+
+  .launchSvg {
+    width: 400px;
+    height: 400px;
+  }
+
+  .decide {
+    top: 29.5rem;
+    left: 13rem;
+  }
+
+  .decideSvg {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .launch {
+    top: 12rem;
+    left: 2rem;
+  }
+
+  .launchSvg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .decide {
+    top: 18rem;
+    left: 5rem;
+  }
+
+  .decideSvg {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .launch {
+    top: 10rem;
+    left: 1.5rem;
+  }
+
+  .launchSvg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .decide {
+    top: 16rem;
+    left: 4rem;
+  }
+
+  .decideSvg {
+    width: 100px;
+    height: 100px;
+  }
+}

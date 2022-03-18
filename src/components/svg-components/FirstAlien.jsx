@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import "./FirstAlien.css";
 
 function FirstAlien() {
   gsap.registerPlugin(ScrollTrigger);
@@ -64,6 +63,7 @@ function FirstAlien() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         ref={alien}
+        className="firstAlien"
       >
         <g id="first-alien">
           <path

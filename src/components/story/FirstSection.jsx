@@ -103,7 +103,9 @@ function FirstSection() {
           />
         </div>
         <div className="welcome-btn-con">
-          <button className="welcome-btn">download résumé</button>
+          <a href="../../assets/duke-resume.pdf" download>
+            <button className="welcome-btn">download résumé</button>
+          </a>
         </div>
       </div>
       <div className="guy-portfolio">
