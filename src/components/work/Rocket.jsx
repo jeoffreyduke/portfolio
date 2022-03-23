@@ -23,6 +23,7 @@ function Rocket() {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           ref={rocket}
+          className="rocket"
         >
           <g id="rocket">
             <path

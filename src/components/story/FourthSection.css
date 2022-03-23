@@ -37,10 +37,10 @@
   left: 30rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1007px) {
   .three {
     position: relative;
-    top: 28.5rem;
+    top: 22.5rem;
     left: 3.5rem;
   }
 
@@ -51,7 +51,7 @@
 
   .mind {
     position: relative;
-    top: 16rem;
+    top: 10rem;
     left: 12rem;
   }
 
@@ -61,10 +61,34 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .three {
     position: relative;
-    top: 17rem;
+    top: 22.5rem;
+    left: 3.5rem;
+  }
+
+  .threeSvg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .mind {
+    position: relative;
+    top: 10rem;
+    left: 12rem;
+  }
+
+  .mindSvg {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .three {
+    position: relative;
+    top: 17.5rem;
     left: 2rem;
   }
 
@@ -75,8 +99,8 @@
 
   .mind {
     position: relative;
-    top: 12rem;
-    left: 5rem;
+    top: 12.5rem;
+    left: 5.5rem;
   }
 
   .mindSvg {
@@ -88,8 +112,8 @@
 @media screen and (max-width: 400px) {
   .three {
     position: relative;
-    top: 15rem;
-    left: 1.5rem;
+    top: 11rem;
+    left: 1rem;
   }
 
   .threeSvg {
@@ -99,12 +123,60 @@
 
   .mind {
     position: relative;
-    top: 10.5rem;
-    left: 4rem;
+    top: 6rem;
+    left: 3.5rem;
   }
 
   .mindSvg {
     width: 200px;
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .three {
+    position: relative;
+    top: 11rem;
+    left: 1rem;
+  }
+
+  .threeSvg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mind {
+    position: relative;
+    top: 6rem;
+    left: 2.8rem;
+  }
+
+  .mindSvg {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .three {
+    position: relative;
+    top: 5.5rem;
+    left: 1rem;
+  }
+
+  .threeSvg {
+    width: 65px;
+    height: 65px;
+  }
+
+  .mind {
+    position: relative;
+    top: 0rem;
+    left: 2.8rem;
+  }
+
+  .mindSvg {
+    width: 180px;
+    height: 180px;
   }
 }

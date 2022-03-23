@@ -39,10 +39,10 @@
   left: 30rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1007px) {
   .sandt {
     position: relative;
-    top: 18rem;
+    top: 10.5rem;
   }
 
   .skills {
@@ -65,10 +65,36 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .sandt {
     position: relative;
-    top: 17rem;
+    top: 10.5rem;
+  }
+
+  .skills {
+    left: 2.5rem;
+  }
+
+  .skillsSvg {
+    width: 500px;
+    height: 500px;
+  }
+
+  .team {
+    top: 10rem;
+    left: 6.5rem;
+  }
+
+  .teamSvg {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .sandt {
+    position: relative;
+    top: 17.5rem;
   }
 
   .skills {
@@ -82,7 +108,7 @@
 
   .team {
     top: 3.5rem;
-    left: 3rem;
+    left: 3.3rem;
   }
 
   .teamSvg {
@@ -94,11 +120,11 @@
 @media screen and (max-width: 400px) {
   .sandt {
     position: relative;
-    top: 15.5rem;
+    top: 10rem;
   }
 
   .skills {
-    left: 1rem;
+    left: 0.5rem;
   }
 
   .skillsSvg {
@@ -114,5 +140,57 @@
   .teamSvg {
     width: 80px;
     height: 80px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .sandt {
+    position: relative;
+    top: 10rem;
+  }
+
+  .skills {
+    left: 0.5rem;
+  }
+
+  .skillsSvg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .team {
+    top: 3rem;
+    left: 1rem;
+  }
+
+  .teamSvg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .sandt {
+    position: relative;
+    top: 7rem;
+  }
+
+  .skills {
+    left: 1rem;
+  }
+
+  .skillsSvg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .team {
+    top: 3rem;
+    left: 2.65rem;
+  }
+
+  .teamSvg {
+    width: 50px;
+    height: 50px;
   }
 }

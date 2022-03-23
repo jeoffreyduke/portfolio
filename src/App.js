@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Routes, Route, NavLink, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-
 import "./App.css";
 import Story from "./components/Story";
 import Work from "./components/Work";
@@ -11,7 +10,6 @@ import flipflop from "../src/assets/flipflop.jpg";
 import sockify from "../src/assets/sockify.jpg";
 import inkfinity from "../src/assets/inkfinity.jpg";
 import poethical from "../src/assets/poethical.jpg";
-import Loader from "./components/Loader";
 
 function App() {
   const location = useLocation();
@@ -31,7 +29,7 @@ function App() {
           </NavLink>
 
           <NavLink
-            className={({ isActive }) => (isActive ? "active" : "link")}
+            className={({ isActive }) => (isActive ? "active1" : "link")}
             to="/work"
             end="true"
           >

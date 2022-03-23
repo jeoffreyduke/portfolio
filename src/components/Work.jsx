@@ -11,7 +11,7 @@ function Work() {
   const [query, setQuery] = useState(false);
 
   useEffect(() => {
-    if (window.matchMedia("(max-width: 400px)").matches) {
+    if (window.matchMedia("(max-width: 1007px)").matches) {
       setQuery(true);
     } else {
       setQuery(false);

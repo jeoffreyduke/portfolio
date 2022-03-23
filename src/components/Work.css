@@ -190,7 +190,7 @@ hr {
   right: 8rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1007px) {
   .projects {
     position: relative;
     bottom: 11rem;
@@ -217,8 +217,8 @@ hr {
   }
 
   hr {
-    right: 7rem;
-    width: 46.5rem;
+    right: 10rem;
+    width: 60rem;
   }
 
   .mail {
@@ -283,7 +283,100 @@ hr {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+  .projects {
+    position: relative;
+    bottom: 11rem;
+    margin-top: 11rem;
+    margin-left: 9rem;
+  }
+
+  .project-title {
+    right: 6.5rem;
+    font-size: 1.5rem;
+    font-family: "Ultra", serif;
+    margin-bottom: 8rem;
+  }
+
+  .box {
+    height: 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .name {
+    top: 2.5rem;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+
+  hr {
+    right: 10rem;
+    width: 60rem;
+  }
+
+  .mail {
+    right: 2rem;
+    bottom: 4rem;
+  }
+
+  .github {
+    right: 3.5rem;
+    bottom: 4rem;
+  }
+
+  .linkedin {
+    right: 4.5rem;
+    bottom: 4rem;
+  }
+
+  .twitter {
+    right: 5rem;
+    bottom: 4rem;
+  }
+
+  .ct-line {
+    opacity: 0;
+  }
+
+  .m-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    left: 5rem;
+  }
+
+  .git-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 1.7rem;
+  }
+
+  .lin-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 2.3rem;
+  }
+
+  .tw-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 2rem;
+  }
+
+  .Work {
+    height: 150vh;
+    overflow-y: hidden;
+  }
+}
+
+@media screen and (max-width: 640px) {
   .projects {
     position: relative;
     bottom: 11rem;
@@ -404,7 +497,7 @@ hr {
 
   hr {
     right: 7rem;
-    width: 19.5rem;
+    width: 19.2rem;
   }
 
   .mail {
@@ -463,8 +556,218 @@ hr {
     right: 2rem;
   }
 
+  .rocket {
+    width: 110px;
+    height: 110px;
+  }
+
   .Work {
-    height: 150vh;
+    height: 180vh;
+    overflow-y: hidden;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .projects {
+    position: relative;
+    bottom: 11rem;
+    margin-top: 11rem;
+    margin-left: 9rem;
+  }
+
+  .project-title {
+    right: 6.5rem;
+    font-size: 1.6rem;
+    font-family: "Ultra", serif;
+    margin-bottom: 8rem;
+  }
+
+  .box {
+    height: 1.5rem;
+    margin-bottom: 7rem;
+  }
+
+  .name {
+    top: 3rem;
+    right: 5rem;
+    font-size: 1.3rem;
+  }
+
+  hr {
+    right: 7rem;
+    width: 18rem;
+  }
+
+  .mail {
+    right: 2rem;
+    bottom: 4rem;
+  }
+
+  .github {
+    right: 3.5rem;
+    bottom: 4rem;
+  }
+
+  .linkedin {
+    right: 4.5rem;
+    bottom: 4rem;
+  }
+
+  .twitter {
+    right: 5rem;
+    bottom: 4rem;
+  }
+
+  .ct-line {
+    opacity: 0;
+  }
+
+  .m-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    left: 5rem;
+  }
+
+  .git-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 1.7rem;
+  }
+
+  .lin-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 2.3rem;
+  }
+
+  .tw-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 2rem;
+  }
+
+  .rocket {
+    width: 110px;
+    height: 110px;
+  }
+
+  .Work {
+    height: 180vh;
+    overflow-y: hidden;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .projects {
+    position: relative;
+    bottom: 11rem;
+    margin-top: 11rem;
+    margin-left: 9rem;
+  }
+
+  .project-title {
+    right: 6.5rem;
+    font-size: 1.5rem;
+    font-family: "Ultra", serif;
+    margin-bottom: 8rem;
+  }
+
+  .box {
+    height: 1.5rem;
+    margin-bottom: 7rem;
+  }
+
+  .name {
+    top: 3rem;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+
+  hr {
+    right: 7rem;
+    width: 15.5rem;
+  }
+
+  .mail {
+    right: 2rem;
+    bottom: 4rem;
+  }
+
+  .github {
+    right: 3.5rem;
+    bottom: 4rem;
+  }
+
+  .linkedin {
+    right: 4.5rem;
+    bottom: 4rem;
+  }
+
+  .twitter {
+    right: 5rem;
+    bottom: 4rem;
+  }
+
+  .ct-line {
+    opacity: 0;
+  }
+
+  .m-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    left: 5rem;
+  }
+
+  .git-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 1.7rem;
+  }
+
+  .lin-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 2.3rem;
+  }
+
+  .tw-line {
+    width: 6.8rem;
+    height: 5rem;
+    position: relative;
+    top: 1.5rem;
+    right: 2rem;
+  }
+
+  .rocket {
+    width: 110px;
+    height: 110px;
+  }
+
+  .contact-sm {
+    top: 0rem;
+    bottom: 10rem;
+    left: 1.4rem;
+    margin-left: 2rem;
+    font-size: 0.6rem;
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  .Work {
+    height: 250vh;
     overflow-y: hidden;
   }
 }

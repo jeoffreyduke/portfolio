@@ -50,15 +50,20 @@
   background-color: #111111;
 }
 
+.sc1 {
+  width: 100vw;
+  background-color: #fff;
+}
+
 .sectioncon {
   margin-top: 1rem;
-  padding-right: 3.5rem;
+  padding-right: 5.5rem;
 }
 
 .second {
   background-color: #fff;
-  padding: 3rem;
-  width: 90vw;
+  padding: 2rem;
+  width: 95vw;
 }
 
 .true-love {
@@ -71,6 +76,58 @@
   position: relative;
   left: 55rem;
   top: 1rem;
+}
+
+@media screen and (max-width: 1007px) {
+  .story-content {
+    padding-right: 0.14rem;
+  }
+
+  .second {
+    padding: 2rem;
+  }
+
+  .thinking {
+    left: 3rem;
+    top: 17rem;
+  }
+
+  .thinkingSvg {
+    height: 344px;
+    width: 406px;
+  }
+
+  .abduction {
+    left: 38rem;
+    bottom: 0;
+    top: 1rem;
+  }
+
+  .abductionSvg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .true-love {
+    bottom: 0rem;
+    top: 9rem;
+    left: 4rem;
+  }
+
+  .trueLove {
+    width: 150px;
+    height: 150px;
+  }
+
+  .coding {
+    left: 27rem;
+    top: 20rem;
+  }
+
+  .codingSvg {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -125,18 +182,18 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .story-content {
     padding-right: 0.14rem;
   }
 
   .second {
-    padding: 2rem;
+    padding: 0.8rem;
   }
 
   .thinking {
     left: 2rem;
-    top: 10rem;
+    top: 11rem;
   }
 
   .thinkingSvg {
@@ -145,8 +202,9 @@
   }
 
   .abduction {
-    left: 17.5rem;
-    bottom: 1rem;
+    left: 18rem;
+    bottom: -2rem;
+    top: 1.5rem;
   }
 
   .abductionSvg {
@@ -156,7 +214,8 @@
 
   .true-love {
     bottom: 0;
-    top: 9rem;
+    top: 9.5rem;
+    left: 2rem;
   }
 
   .trueLove {
@@ -165,8 +224,8 @@
   }
 
   .coding {
-    left: 13rem;
-    top: 16rem;
+    left: 14.8rem;
+    top: 16.5rem;
   }
 
   .codingSvg {
@@ -181,12 +240,12 @@
   }
 
   .second {
-    padding: 2rem;
+    padding: 0.9rem;
   }
 
   .thinking {
     left: 1rem;
-    top: 7.5rem;
+    top: 3rem;
   }
 
   .thinkingSvg {
@@ -196,7 +255,7 @@
 
   .abduction {
     left: 16rem;
-    top: -2.7rem;
+    top: -7.5rem;
   }
 
   .abductionSvg {
@@ -206,7 +265,7 @@
 
   .true-love {
     bottom: 0rem;
-    top: 7.5rem;
+    top: 4rem;
     left: 1.5rem;
   }
 
@@ -216,8 +275,110 @@
   }
 
   .coding {
-    left: 13rem;
-    top: 14.5rem;
+    left: 12rem;
+    top: 10.5rem;
+  }
+
+  .codingSvg {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .story-content {
+    padding-right: 0.14rem;
+  }
+
+  .second {
+    padding: 0.6rem;
+  }
+
+  .thinking {
+    left: 1rem;
+    top: 1rem;
+  }
+
+  .thinkingSvg {
+    height: 220px;
+    width: 220px;
+  }
+
+  .abduction {
+    left: 15.5rem;
+    top: -9.5rem;
+  }
+
+  .abductionSvg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .true-love {
+    bottom: 0rem;
+    top: 4rem;
+    left: 1.5rem;
+  }
+
+  .trueLove {
+    width: 100px;
+    height: 100px;
+  }
+
+  .coding {
+    left: 12rem;
+    top: 10.5rem;
+  }
+
+  .codingSvg {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .story-content {
+    padding-right: 0.14rem;
+  }
+
+  .second {
+    padding: 0.5rem;
+  }
+
+  .thinking {
+    left: 1rem;
+    top: -1.2rem;
+  }
+
+  .thinkingSvg {
+    height: 100px;
+    width: 100px;
+  }
+
+  .abduction {
+    left: 15.5rem;
+    top: -6.2rem;
+  }
+
+  .abductionSvg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .true-love {
+    bottom: 0rem;
+    top: 0;
+    left: 1rem;
+  }
+
+  .trueLove {
+    width: 80px;
+    height: 80px;
+  }
+
+  .coding {
+    left: 9rem;
+    top: 6.2rem;
   }
 
   .codingSvg {

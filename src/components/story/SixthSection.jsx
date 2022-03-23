@@ -11,7 +11,7 @@ function SixthSection() {
   return (
     <div className="SixthSection">
       <div className="story-board">
-        <div ref={sectionSix} className="sectioncon">
+        <div ref={sectionSix} className="sectioncon Typo">
           <TypeWriterEffect
             textStyle={{
               fontFamily: "JetBrains Mono, monospace",

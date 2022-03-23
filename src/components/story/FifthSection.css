@@ -38,9 +38,9 @@
   left: 35rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1007px) {
   .launch {
-    top: 15rem;
+    top: 8rem;
     left: 3rem;
   }
 
@@ -50,7 +50,7 @@
   }
 
   .decide {
-    top: 29.5rem;
+    top: 22.5rem;
     left: 13rem;
   }
 
@@ -60,9 +60,31 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .launch {
-    top: 12rem;
+    top: 8rem;
+    left: 3rem;
+  }
+
+  .launchSvg {
+    width: 400px;
+    height: 400px;
+  }
+
+  .decide {
+    top: 22.5rem;
+    left: 13rem;
+  }
+
+  .decideSvg {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .launch {
+    top: 13.5rem;
     left: 2rem;
   }
 
@@ -72,8 +94,8 @@
   }
 
   .decide {
-    top: 18rem;
-    left: 5rem;
+    top: 19.5rem;
+    left: 5.5rem;
   }
 
   .decideSvg {
@@ -84,8 +106,8 @@
 
 @media screen and (max-width: 400px) {
   .launch {
-    top: 10rem;
-    left: 1.5rem;
+    top: 6.5rem;
+    left: 1.2rem;
   }
 
   .launchSvg {
@@ -94,12 +116,56 @@
   }
 
   .decide {
-    top: 16rem;
-    left: 4rem;
+    top: 12.5rem;
+    left: 3.5rem;
   }
 
   .decideSvg {
     width: 100px;
     height: 100px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .launch {
+    top: 5.5rem;
+    left: 0.5rem;
+  }
+
+  .launchSvg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .decide {
+    top: 11.5rem;
+    left: 3.5rem;
+  }
+
+  .decideSvg {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .launch {
+    top: 0rem;
+    left: 0.8rem;
+  }
+
+  .launchSvg {
+    width: 180px;
+    height: 180px;
+  }
+
+  .decide {
+    top: 6.5rem;
+    left: 3.5rem;
+  }
+
+  .decideSvg {
+    width: 65px;
+    height: 65px;
   }
 }

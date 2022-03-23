@@ -95,12 +95,12 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1007px) {
   .welcome {
     color: #39ff14;
     font-size: 2rem;
     left: 4rem;
-    top: 28rem;
+    top: 23rem;
   }
 
   .welcome-small {
@@ -117,7 +117,7 @@
 
   .first-alien {
     left: 1rem;
-    bottom: 10rem;
+    bottom: 15rem;
   }
 
   .firstAlien {
@@ -126,7 +126,7 @@
   }
 
   .second-alien {
-    top: 10rem;
+    top: 5rem;
   }
 
   .secondAlien {
@@ -136,7 +136,7 @@
 
   .guy-portfolio {
     left: 28rem;
-    top: 13.5rem;
+    top: 8.5rem;
     bottom: 0;
   }
 
@@ -144,9 +144,78 @@
     width: 300px;
     height: 300px;
   }
+
+  .move-button-con {
+    right: 3rem;
+  }
+
+  .moveButton {
+    width: 40px;
+    height: 40px;
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+  .welcome {
+    color: #39ff14;
+    font-size: 2rem;
+    left: 4rem;
+    top: 23rem;
+  }
+
+  .welcome-small {
+    font-size: 0.9rem;
+    font-family: "BioRhyme", serif;
+    margin-top: 0.5rem;
+    color: #fff;
+  }
+
+  .welcome-btn {
+    height: 3rem;
+    font-size: 0.8rem;
+  }
+
+  .first-alien {
+    left: 1rem;
+    bottom: 15rem;
+  }
+
+  .firstAlien {
+    width: 60px;
+    height: 60px;
+  }
+
+  .second-alien {
+    top: 5rem;
+  }
+
+  .secondAlien {
+    width: 60px;
+    height: 60px;
+  }
+
+  .guy-portfolio {
+    left: 28rem;
+    top: 8.5rem;
+    bottom: 0;
+  }
+
+  .guy {
+    width: 300px;
+    height: 300px;
+  }
+
+  .move-button-con {
+    right: 3rem;
+  }
+
+  .moveButton {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
   .welcome {
     font-size: 1.1rem;
     left: 2rem;
@@ -183,7 +252,7 @@
   }
 
   .guy-portfolio {
-    left: 12.5rem;
+    left: 13.5rem;
     top: 15.5rem;
   }
 
@@ -197,7 +266,7 @@
   .welcome {
     font-size: 1.1rem;
     left: 1rem;
-    top: 23rem;
+    top: 18rem;
   }
 
   .welcome-small {
@@ -211,8 +280,8 @@
   }
 
   .first-alien {
-    left: 1rem;
-    top: 0.1rem;
+    left: 0.5rem;
+    top: -6rem;
   }
 
   .firstAlien {
@@ -221,7 +290,7 @@
   }
 
   .second-alien {
-    top: 15rem;
+    top: 6rem;
   }
 
   .secondAlien {
@@ -230,12 +299,133 @@
   }
 
   .guy-portfolio {
-    left: 12.2rem;
-    top: 15.5rem;
+    left: 11.4rem;
+    top: 10rem;
   }
 
   .guy {
     width: 180px;
     height: 180px;
+  }
+
+  .move-button-con {
+    right: 2rem;
+  }
+
+  .moveButton {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .welcome {
+    font-size: 1.1rem;
+    left: 0.5rem;
+    top: 18rem;
+  }
+
+  .welcome-small {
+    font-size: 0.42rem;
+  }
+
+  .welcome-btn {
+    width: 9rem;
+    height: 1.5rem;
+    font-size: 0.45rem;
+  }
+
+  .first-alien {
+    left: 0.5rem;
+    top: -6rem;
+  }
+
+  .firstAlien {
+    width: 50px;
+    height: 50px;
+  }
+
+  .second-alien {
+    top: 6rem;
+  }
+
+  .secondAlien {
+    width: 50px;
+    height: 50px;
+  }
+
+  .guy-portfolio {
+    left: 11rem;
+    top: 10rem;
+  }
+
+  .guy {
+    width: 180px;
+    height: 180px;
+  }
+
+  .move-button-con {
+    right: 2rem;
+  }
+
+  .moveButton {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .welcome {
+    font-size: 1rem;
+    left: 0.5rem;
+    top: 14rem;
+  }
+
+  .welcome-small {
+    font-size: 0.4rem;
+  }
+
+  .welcome-btn {
+    width: 8rem;
+    height: 1.5rem;
+    font-size: 0.45rem;
+  }
+
+  .first-alien {
+    left: 0.5rem;
+    top: -7rem;
+  }
+
+  .firstAlien {
+    width: 40px;
+    height: 40px;
+  }
+
+  .second-alien {
+    top: 5rem;
+  }
+
+  .secondAlien {
+    width: 40px;
+    height: 40px;
+  }
+
+  .guy-portfolio {
+    left: 10.2rem;
+    top: 7rem;
+  }
+
+  .guy {
+    width: 150px;
+    height: 150px;
+  }
+
+  .move-button-con {
+    right: 2rem;
+  }
+
+  .moveButton {
+    width: 30px;
+    height: 30px;
   }
 }

@@ -1,5 +1,6 @@
 .App {
   background-color: #111111;
+  overflow-x: hidden;
 }
 
 header {
@@ -52,6 +53,33 @@ header {
   text-align: center;
 }
 
+.active1 {
+  width: 4rem;
+  font-size: 0.85rem;
+  font-family: "JetBrains Mono", monospace;
+  padding: 0.2rem;
+  border: none;
+  background-color: transparent;
+  transition: 1s;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 1007px) {
+  header {
+    font-size: 0.9rem;
+    left: 40rem;
+    top: 0;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    z-index: 1000;
+  }
+
+  .story {
+    margin-right: 0.5rem;
+  }
+}
+
 @media screen and (max-width: 900px) {
   header {
     font-size: 0.9rem;
@@ -67,7 +95,7 @@ header {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   header {
     font-size: 0.9rem;
     left: 10rem;
@@ -78,8 +106,23 @@ header {
   }
 
   .story {
-    margin-right: 0.5rem;
-    left: 2rem;
+    margin-right: 0rem;
+    left: 4rem;
+  }
+
+  .active {
+    position: relative;
+    right: 21rem;
+  }
+
+  .active1 {
+    position: relative;
+    right: 2.5rem;
+  }
+
+  .link {
+    position: relative;
+    right: 2.5rem;
   }
 }
 
@@ -94,17 +137,87 @@ header {
   }
 
   .story {
-    margin-right: 0rem;
+    margin-right: 0;
     left: 2rem;
   }
 
   .active {
     position: relative;
-    right: 25rem;
+    right: 0;
+    left: 2rem;
+  }
+
+  .active1 {
+    position: relative;
+    right: 1.5rem;
   }
 
   .link {
     position: relative;
-    right: 25rem;
+    right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  header {
+    font-size: 0.9rem;
+    left: 10rem;
+    top: 0;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    z-index: 1000;
+  }
+
+  .story {
+    margin-right: 0;
+    left: 2rem;
+  }
+
+  .active {
+    position: relative;
+    right: 0;
+    left: 2rem;
+  }
+
+  .active1 {
+    position: relative;
+    right: 0.1rem;
+  }
+
+  .link {
+    position: relative;
+    right: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  header {
+    font-size: 0.9rem;
+    left: 10rem;
+    top: 0;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    z-index: 1000;
+  }
+
+  .story {
+    margin-right: 2.5rem;
+    left: 2rem;
+  }
+
+  .active {
+    position: relative;
+    right: 0;
+    left: 2rem;
+  }
+
+  .active1 {
+    position: relative;
+    right: 0.1rem;
+  }
+
+  .link {
+    position: relative;
+    right: 0.1rem;
   }
 }
