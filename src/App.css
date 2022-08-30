@@ -207,7 +207,7 @@ header {
 
   .active {
     position: relative;
-    right: 0;
+    right: 1;
     left: 2rem;
   }
 
