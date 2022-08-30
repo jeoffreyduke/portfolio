@@ -95,7 +95,37 @@
   }
 }
 
+/* media queries max width 1400 */
 @media screen and (max-width: 1400px) {
+  .welcome {
+    font-size: 3.5rem;
+  }
+  .welcome-small {
+    font-size: 0.8rem;
+  }
+  .welcome-btn {
+    width: 18rem;
+    height: 2.5rem;
+  }
+  .move-button-con {
+    right: 6rem;
+    bottom: 2rem;
+  }
+  .guy-portfolio {
+    left: 45rem;
+    bottom: 10rem;
+  }
+  .first-alien {
+    left: 0.5rem;
+    bottom: 45rem;
+  }
+  .second-alien {
+    left: 0.5rem;
+    bottom: 20rem;
+  }
+}
+
+@media screen and (max-width: 1007px) {
   .welcome {
     color: #39ff14;
     font-size: 2rem;
