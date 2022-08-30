@@ -117,15 +117,15 @@
   }
   .first-alien {
     left: 1rem;
-    bottom: 48rem;
+    bottom: 50rem;
   }
   .second-alien {
     left: 0.5rem;
-    bottom: 21rem;
+    bottom: 28rem;
   }
-  .secondAlien {
-    left: 0.5rem;
-    bottom: 32rem;
+  .guy-portfolio {
+    left: 42rem;
+    bottom: 12rem;
   }
 }
 
