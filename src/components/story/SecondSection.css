@@ -78,6 +78,15 @@
   top: 1rem;
 }
 
+/* media queries max width 1400 */
+@media screen and (max-width: 1400px) {
+  .true-love {
+    position: relative;
+    left: 1rem;
+    bottom: 18rem;
+  }
+}
+
 @media screen and (max-width: 1007px) {
   .story-content {
     padding-right: 0.14rem;
