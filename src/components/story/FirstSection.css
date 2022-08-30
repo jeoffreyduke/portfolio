@@ -123,21 +123,13 @@
     left: 0.5rem;
     bottom: 20rem;
   }
+  .secondAlien {
+    left: 0.5rem;
+    bottom: 20rem;
+  }
   .guy-portfolio {
     left: 45rem;
     bottom: 10rem;
-  }
-  .guy {
-    width: 10rem;
-    height: 10rem;
-  }
-  .move-button-con {
-    right: 6rem;
-    bottom: 2rem;
-  }
-  .moveButton {
-    width: 18rem;
-    height: 2.5rem;
   }
 }
 
