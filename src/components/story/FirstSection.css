@@ -95,7 +95,7 @@
   }
 }
 
-@media screen and (max-width: 1007px) {
+@media screen and (max-width: 1400px) {
   .welcome {
     color: #39ff14;
     font-size: 2rem;
