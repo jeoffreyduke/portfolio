@@ -8,7 +8,7 @@ import Pop from "./components/work/Pop";
 import sockflix from "../src/assets/sockflix.jpg";
 import flipflop from "../src/assets/flipflop.jpg";
 import sockify from "../src/assets/sockify.jpg";
-import inkfinity from "../src/assets/inkfinity.jpg";
+import clann from "../src/assets/clann.png";
 import poethical from "../src/assets/poethical.jpg";
 
 function App() {
@@ -80,14 +80,14 @@ function App() {
           />
           <Route
             exact
-            path="/inkfinity"
+            path="/clann"
             element={
               <Pop
-                logo={"Inkfinity"}
-                small={"E-commerce"}
-                big={"An online Bookstore."}
-                image={inkfinity}
-                link={"https://inkfinity.org/"}
+                logo={"Clann"}
+                small={"Communication"}
+                big={"A voicechat app."}
+                image={clann}
+                link={"https://clann.web.app/"}
               />
             }
           />

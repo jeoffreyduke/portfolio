@@ -83,8 +83,8 @@ function Work() {
           </div>
           <hr />
           <div className="box">
-            <Link className="pop-link" to="/inkfinity" end="true">
-              <div className="name">Inkfinity</div>
+            <Link className="pop-link" to="/clann" end="true">
+              <div className="name">Clann</div>
             </Link>
           </div>
           <hr />
